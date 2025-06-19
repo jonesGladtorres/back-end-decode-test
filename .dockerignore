@@ -1,0 +1,10 @@
+# Arquivo .dockerignore
+
+# Ignora a pasta de dependências local. O Docker vai instalar a sua própria.
+node_modules
+
+# Ignora logs e arquivos do ambiente de desenvolvimento
+dist
+.env
+npm-debug.log
+.DS_Store
